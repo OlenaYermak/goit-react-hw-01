@@ -1,0 +1,65 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding-top: 20px;
+    background-color: #fafafa;
+    max-width: 400px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.profileImg{
+    width: 115px;
+    border-radius: 50%;
+    background-color: #2A2A2A;
+    overflow: hidden;
+}
+.imgTextWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.profileName, 
+.profileDataText{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.profileTag,
+.profileLocation {
+    font-size: 22px;
+    color: #808080;
+    text-align: center;
+}
+
+.profileText
+ {
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+}
+
+.dataList{
+    display: flex;
+    background-color: #D3D3D3;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 3px solid #808080;
+}
+.dataListItem{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex: 1;
+}
+
+.dataListItem +.dataListItem {
+    border-left: 3px solid #808080;  
+}
